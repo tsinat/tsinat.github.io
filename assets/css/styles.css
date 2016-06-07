@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 1.5
  * Author: Xiaoying Riley
@@ -512,6 +512,9 @@ iframe {
 }
 .footer .fa-heart {
   color: #fb866a;
+}
+.profile-image {
+    border-radius: 50%;
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
