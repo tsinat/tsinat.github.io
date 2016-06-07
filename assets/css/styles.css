@@ -515,6 +515,7 @@ iframe {
 }
 .profile-image {
     border-radius: 50%;
+    border: 2px solid grey;
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
