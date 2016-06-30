@@ -1,0 +1,260 @@
+/*This stylesheet contains some custom class rather than Bootstrap*/
+
+a.brand img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    width: 50px;
+    ;
+}
+.navbar .nav> li {
+    margin: 20px;
+}
+.navbar-inner {
+    background-color: transparent;
+}
+
+/*section header*/
+.container {
+    margin-right: 0;
+    margin: 0 auto;
+}
+.section_cover {
+    min-height: 700px;
+    background-image: url('../img/cover.jpeg');
+	background-attachment: fixed;
+}
+.cover_header {
+    margin-top: 200px;
+}
+.header_name {
+    font-size: 4em;
+}
+.header_arrow {
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: #39d084;
+}
+/*section header ends*/
+
+/***** Profile *****/
+.profile, .skills, .work, .resume {
+    padding: 30px 0;
+}
+.profile h2, .skills h2, .work h2, .resume h2, .blog_title {
+    font-weight: normal;
+    color: #39D084;
+}
+.profile h1 {
+    color: #39d084;
+    font-weight: normal;
+}
+.profile h3 {
+    color: #fff;
+    font-weight: normal;
+}
+.profile p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 30px;
+}
+.profile .container .span5 {
+    /*padding:40px 0;*/
+}
+.profile_image {
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-left: 0;
+    text-align: left;
+}
+.section_profile {
+    min-height: 550px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.section_portfolio, .section_resume {
+    background-color: #34495e !important;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+a.hire-me {
+    display: inline-block;
+    *display: inline;
+    padding: 10px 60px;
+    background: #39d084;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 40px 0 0 10px;
+    margin-top: 100px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+a.hire-me:hover {
+    text-decoration: none;
+    background: #11d170;
+}
+
+/*section profile ends*/
+
+/**** Work container *****/
+
+ul.work-images li {
+    list-style: none;
+    display: inline-block;
+    margin: 8px 10px;
+    background:
+}
+ul.work-images li:first-child {
+    margin-left: 0;
+}
+ul.work-images li div {
+    background: url(../img/eye.png) 50% 50% no-repeat;
+    background-color: #2c3e50;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+ul.work-images li img {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+ul.work-images li img:hover {
+    opacity: 0.1;
+}
+ul.work-images li div.work-div {
+     background: url(../img/eye.png) 50% 50% no-repeat;
+     background-color: transparent;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+ul.work-images li div {
+	background-color: transparent;
+	background: none;
+}
+/***** social media icons *****/
+.social {
+    text-align: center;
+    padding-bottom: 80px;
+}
+ul.social-icons {
+    margin: 20px 0;
+}
+ul.social-icons li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+ul.social-icons li:first-child {
+    margin-left: 0;
+}
+ul.social-icons li a {
+    opacity: 0.8;
+}
+ul.social-icons li a:hover {
+    opacity: 1;
+}
+
+.resume h3 {
+    margin: 60px 0;
+}
+.resume .btn-center {
+    text-align: center;
+}
+.github {
+    color: #000000;
+}
+.linkedin {
+    color: #007bb5;
+}
+.stackoverflow {
+    color: #fe7a15;
+}
+.twitter {
+    color: #55acee;
+}
+/*social media icons end*/
+.span3 {
+    margin-right: 40px;
+    width: 30%;
+}
+.blog_title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.blog {
+    margin: 40px;
+}
+.row {
+    margin-left: 50px;
+}
+.col-xs-3 {
+    padding: 20px;
+    margin: 0;
+    width: 20%;
+    float: left;
+    clear: right;
+}
+.span4 {
+	padding-right: 0 !important;
+}
+
+/*skills section*/
+.skills_icons {
+    width: 100px;
+}
+.css_icon {
+    width: 75px;
+	margin-left:15px;
+}
+.jquery_icon {
+    width: 90px;
+}
+/*skills section ends*/
+
+/*footer begins*/
+.footer {
+    background: #355267;
+    /*position: fixed;*/
+    width: 100%;
+    bottom: 0;
+}
+.footer p {
+    margin: 20px 0;
+}
+.footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer p a:hover {
+    color: #39d084;
+}
+
+.goto-top {
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    padding-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #252525;
+    border-radius: 50%;
+}
+.fa-chevron-up {
+    color: #39d084;
+}
+.sticky {
+    display: block !important;
+}
+/*footer ends*/
