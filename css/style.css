@@ -14,30 +14,38 @@ a.brand img {
 }
 
 /*section header*/
+
 .container {
-    margin-right: 0;
     margin: 0 auto;
+    width: 90% !important:
 }
 .section_cover {
-    min-height: 700px;
+    min-height: 500px;
     background-image: url('../img/cover.jpeg');
-	background-attachment: fixed;
+    background-attachment: fixed;
 }
 .cover_header {
-    margin-top: 200px;
+    padding-top: 100px;
+    margin-bottom: 0;
+}
+h1 {
+    font-size: 1.5em;
 }
 .header_name {
     font-size: 4em;
 }
 .header_arrow {
     padding: 10px;
-    border: 3px solid white;
-    border-radius: 50%;
+    /*border: 3px solid white;*/
+    /*border-radius: 50%;*/
     color: #39d084;
 }
+
 /*section header ends*/
 
+
 /***** Profile *****/
+
 .profile, .skills, .work, .resume {
     padding: 30px 0;
 }
@@ -60,12 +68,15 @@ a.brand img {
     margin-top: 30px;
 }
 .profile .container .span5 {
-    /*padding:40px 0;*/
+    padding:40px 20px;
+    font-size: 1.5em;
 }
 .profile_image {
     border-radius: 50%;
-    margin-right: 100px;
+    /*margin-right: 100px;*/
     margin-left: 0;
+    width:300px;
+    height: 300px;
     text-align: left;
 }
 .section_profile {
@@ -88,7 +99,7 @@ a.hire-me {
     text-transform: uppercase;
     font-size: 20px;
     margin: 40px 0 0 10px;
-    margin-top: 100px;
+    margin-top: 60px;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     border-radius: 40px;
@@ -99,6 +110,7 @@ a.hire-me:hover {
 }
 
 /*section profile ends*/
+
 
 /**** Work container *****/
 
@@ -129,18 +141,20 @@ ul.work-images li img:hover {
     opacity: 0.1;
 }
 ul.work-images li div.work-div {
-     background: url(../img/eye.png) 50% 50% no-repeat;
-     background-color: transparent;
+    background: url(../img/eye.png) 50% 50% no-repeat;
+    background-color: transparent;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
 ul.work-images li div {
-	background-color: transparent;
-	background: none;
+    background-color: transparent;
+    background: none;
 }
+
 /***** social media icons *****/
+
 .social {
     text-align: center;
     padding-bottom: 80px;
@@ -162,7 +176,6 @@ ul.social-icons li a {
 ul.social-icons li a:hover {
     opacity: 1;
 }
-
 .resume h3 {
     margin: 60px 0;
 }
@@ -181,10 +194,12 @@ ul.social-icons li a:hover {
 .twitter {
     color: #55acee;
 }
+
 /*social media icons end*/
+
 .span3 {
-    margin-right: 40px;
-    width: 30%;
+    /*margin-right: 40px;*/
+    /*width: 30%;*/
 }
 .blog_title {
     margin-top: 40px;
@@ -204,23 +219,27 @@ ul.social-icons li a:hover {
     clear: right;
 }
 .span4 {
-	padding-right: 0 !important;
+    padding-right: 0 !important;
 }
 
 /*skills section*/
+
 .skills_icons {
     width: 100px;
 }
 .css_icon {
     width: 75px;
-	margin-left:15px;
+    margin-left: 15px;
 }
 .jquery_icon {
     width: 90px;
 }
+
 /*skills section ends*/
 
+
 /*footer begins*/
+
 .footer {
     background: #355267;
     /*position: fixed;*/
@@ -237,7 +256,6 @@ ul.social-icons li a:hover {
 .footer p a:hover {
     color: #39d084;
 }
-
 .goto-top {
     display: none;
     width: 30px;
@@ -257,4 +275,33 @@ ul.social-icons li a:hover {
 .sticky {
     display: block !important;
 }
+.contact {
+    float: left !important;
+}
 /*footer ends*/
+
+@media only screen and (min-width: 768px) {
+    .section_cover {
+        min-height: 700px;
+    }
+    .cover_header {
+        margin-top: 100px;
+    }
+    .chevron {
+        margin-top: 60px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    .contact {
+        float: right !important;
+    }
+    #profile p {
+        font-size: 2em !important;
+        line-height: 1.2;
+        font-family: sans-serif;
+    }
+    .about-main {
+
+    }
+}
