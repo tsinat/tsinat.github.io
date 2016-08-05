@@ -1,18 +1,35 @@
 /*This stylesheet contains some custom class rather than Bootstrap*/
 
-a.brand img {
+/*a.brand img {
     border-radius: 50%;
-    border: 5px solid #fff;
+    border: 5px solid lightgrey;
     width: 50px;
-    ;
-}
-.navbar .nav> li {
-    margin: 20px;
+
+}*/
+.navbar .nav {
+    margin: 0;
+    padding: 0;
 }
 .navbar-inner {
-    background-color: transparent;
+    background-color: white;
+    color:grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    padding-left: 0;
+    /*height:70px;*/
+    padding-top: 0 !important;
 }
-
+.navbar .nav > li > a {
+    color: grey;
+    padding: 6px 15px 6px;
+}
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover, .navbar .nav > li > a.active {
+    background-color: grey;
+    color: #fff;
+    text-decoration: none;
+}
 /*section header*/
 
 .container {
@@ -20,13 +37,14 @@ a.brand img {
     width: 90% !important:
 }
 .section_cover {
-    min-height: 500px;
-    background-image: url('../img/cover.jpeg');
+    /*min-height: 600px;
+    background-image: url('../img/cover.jpeg') !important;
     background-attachment: fixed;
+    color:grey;*/
 }
 .cover_header {
     padding-top: 100px;
-    margin-bottom: 0;
+    margin-bottom: 60px !important;
 }
 h1 {
     font-size: 1.5em;
@@ -73,22 +91,44 @@ h1 {
 }
 .profile_image {
     border-radius: 50%;
-    /*margin-right: 100px;*/
     margin-left: 0;
-    width:300px;
-    height: 300px;
+    width:200px;
+    height: 200px;
     text-align: left;
+    border: 5px solid lightgrey;
 }
 .section_profile {
     min-height: 550px;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background: #FAFAFA;
+    color:grey;
+    margin-top: 0 !important;
 }
-.section_portfolio, .section_resume {
-    background-color: #34495e !important;
+.section_profile h3 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2.5em;
+}
+.section_profile h1, h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 3em;
+    color:grey;
+    font-weight: bold;
+}
+.section_portfolio {
+    background-color: white !important;
     width: 100%;
     padding: 0;
+    padding-top: 40px;
     margin: 0;
+    color: grey;
+}
+.section_resume {
+        background: #FAFAFA;
+        color: grey;
+}
+.project-image {
+    border: 1px solid lightgrey;
 }
 a.hire-me {
     display: inline-block;
@@ -138,7 +178,7 @@ ul.work-images li img {
     transition: all 0.2s linear;
 }
 ul.work-images li img:hover {
-    opacity: 0.1;
+    opacity: 0.3;
 }
 ul.work-images li div.work-div {
     background: url(../img/eye.png) 50% 50% no-repeat;
@@ -241,7 +281,8 @@ ul.social-icons li a:hover {
 /*footer begins*/
 
 .footer {
-    background: #355267;
+    /*background: #355267;*/
+    background: grey;
     /*position: fixed;*/
     width: 100%;
     bottom: 0;
@@ -266,8 +307,8 @@ ul.social-icons li a:hover {
     padding-top: 10px;
     padding: 10px;
     border: none;
-    background-color: #252525;
-    border-radius: 50%;
+    background-color: lightgrey;
+    /*border-radius: 50%;*/
 }
 .fa-chevron-up {
     color: #39d084;
@@ -282,7 +323,9 @@ ul.social-icons li a:hover {
 
 @media only screen and (min-width: 768px) {
     .section_cover {
-        min-height: 700px;
+        /*min-height: 700px;*/
+        padding-top: 80px;
+        background: white;
     }
     .cover_header {
         margin-top: 100px;
