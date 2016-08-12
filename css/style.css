@@ -261,22 +261,6 @@ ul.social-icons li a:hover {
     padding-right: 0 !important;
 }
 
-/*skills section*/
-
-.skills_icons {
-    width: 100px;
-}
-.css_icon {
-    width: 75px;
-    margin-left: 15px;
-}
-.jquery_icon {
-    width: 90px;
-}
-
-/*skills section ends*/
-
-
 /*footer begins*/
 
 .footer {
