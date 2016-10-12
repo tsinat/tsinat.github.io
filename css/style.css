@@ -9,7 +9,7 @@
 .navbar .nav {
     margin: 0;
     padding: 0;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 .navbar-inner {
     background-color: white;
@@ -143,7 +143,7 @@ a.hire-me {
     text-transform: uppercase;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     border-radius: 40px;
