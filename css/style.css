@@ -205,6 +205,7 @@ ul.work-images li div {
 }
 ul.social-icons {
     margin:0;
+    padding-left:0;
 }
 ul.social-icons li {
     list-style: none;
