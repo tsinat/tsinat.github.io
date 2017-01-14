@@ -1,26 +1,29 @@
 /*This stylesheet contains some custom class rather than Bootstrap*/
 
-/*a.brand img {
-    border-radius: 50%;
-    border: 5px solid lightgrey;
-    width: 50px;
-
-}*/
+.navbar .btn-navbar {
+    float: right;
+    padding: 25px !important;
+    margin-bottom: 5px;
+    color: #ffffff;
+    background-color: #39D084;
+}
 .navbar .nav {
-    margin: 0;
+    margin: 0 auto !important;
     padding: 0;
-    margin-left: 100px;
+    margin-left: 18% !important;
 }
 .navbar-inner {
-    background-color: white;
+    background-color: #2E3D49;
     color:grey;
     position: fixed;
     top: 0;
     width: 100%;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #C0C0C9;
     padding-left: 0;
-    /*height:70px;*/
     padding-top: 0 !important;
+}
+.nav li {
+    margin: 15px 20px !important;
 }
 .navbar .nav > li > a {
     color: grey;
@@ -37,16 +40,7 @@
     margin: 0 auto;
     width: 90% !important:
 }
-.section_cover {
-    /*min-height: 600px;
-    background-image: url('../img/cover.jpeg') !important;
-    background-attachment: fixed;
-    color:grey;*/
-}
-.cover_header {
-    padding-top: 100px;
-    margin-bottom: 60px !important;
-}
+
 h1 {
     font-size: 1.5em;
 }
@@ -55,8 +49,6 @@ h1 {
 }
 .header_arrow {
     padding: 10px;
-    /*border: 3px solid white;*/
-    /*border-radius: 50%;*/
     color: #39d084;
 }
 
@@ -66,7 +58,7 @@ h1 {
 /***** Profile *****/
 
 .profile, .skills, .work, .resume {
-    padding: 30px 0;
+    /*padding: 30px 0;*/
 }
 .profile h2, .skills h2, .work h2, .resume h2, .blog_title {
     font-weight: normal;
@@ -93,8 +85,8 @@ h1 {
 .profile_image {
     border-radius: 50%;
     margin-left: 0;
-    width:200px;
-    height: 200px;
+    width:150px;
+    height: 150px;
     text-align: left;
     border: 5px solid lightgrey;
 }
@@ -102,9 +94,10 @@ h1 {
     min-height: 550px;
     padding-top: 60px;
     padding-bottom: 40px;
-    background: #FAFAFA;
+    /*background: #FAFAFA;*/
     color:grey;
-    margin-top: 0 !important;
+    height: 100vh;
+    margin-top: -20px !important;
 }
 .section_profile h3 {
     font-family: "Open Sans Condensed", sans-serif;
@@ -123,9 +116,12 @@ h1 {
     background-color: white !important;
     width: 100%;
     padding: 0;
-    padding-top: 40px;
+    padding-top: 60px !important;
     margin: 0;
     color: grey;
+}
+.profContainer {
+    padding-top: 80px !important;
 }
 .section_resume {
         background: #FAFAFA;
@@ -199,13 +195,14 @@ ul.work-images li div {
 
 /***** social media icons *****/
 
-.social {
+div.row.social {
     text-align: center;
     padding-bottom: 20px;
+    margin-left: 10 !important;
 }
 ul.social-icons {
     margin:0;
-    padding-left:0;
+    padding-left: -20px !important;
 }
 ul.social-icons li {
     list-style: none;
@@ -306,9 +303,11 @@ ul.social-icons li a:hover {
 /*footer ends*/
 
 @media only screen and (min-width: 768px) {
+    .profContainer {
+        padding-top: 0px !important;
+    }
     .section_cover {
-        /*min-height: 700px;*/
-        padding-top: 80px;
+        padding-top: 60px;
         background: white;
     }
     .cover_header {
