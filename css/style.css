@@ -96,7 +96,7 @@ h1 {
     padding-bottom: 40px;
     /*background: #FAFAFA;*/
     color:grey;
-    height: 100vh;
+    height: auto;
     margin-top: -20px !important;
 }
 .section_profile h3 {
