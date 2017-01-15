@@ -2,7 +2,7 @@
 
 .navbar .btn-navbar {
     float: right;
-    padding: 25px !important;
+    padding: 10px !important;
     margin-bottom: 5px;
     color: #ffffff;
     background-color: #39D084;
@@ -100,11 +100,11 @@ h1 {
 }
 .section_profile h3 {
     font-family: "Open Sans Condensed", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .section_profile h1, h2 {
     font-family: "Open Sans Condensed", sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
     color:grey;
     font-weight: bold;
 }
@@ -120,7 +120,7 @@ h1 {
     color: grey;
 }
 .profContainer {
-    padding-top: 80px !important;
+    padding-top: 40px !important;
 }
 .section_resume {
         background: #FAFAFA;
@@ -304,6 +304,9 @@ ul.social-icons li a:hover {
 @media only screen and (min-width: 768px) {
     .profContainer {
         padding-top: 0px !important;
+    }
+    .section_profile h3 {
+        font-size:2em !important;
     }
     .section_cover {
         padding-top: 60px;
