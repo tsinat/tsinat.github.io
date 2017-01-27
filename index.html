@@ -1,164 +1,277 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Tsinat</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="font/css/fontello.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
-</head>
-<body>
-<div id='top' class="navbar">
-  <div class="navbar-inner">
-    <div class="container text-center"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></a>
-          <!-- <a class="brand" href="#"><img src="img/profile.png" alt=""></a> -->
-      <ul  class="nav nav-collapse text-center">
-        <li><a class="smoothScroll" href="#profile" class="active"> Profile</a></li>
-        <li><a class="smoothScroll" href="#work"> Portfolio</a></li>
-        <li><a class="smoothScroll" href="img/tsinat_resume_update.pdf" target='_blank'> Resume</a></li>
-        <li><a class="smoothScroll" href="#blog"> Blog</a></li>
-      </ul>
-      <div class="nav-collapse collapse"></div>
-    </div>
-  </div>
-</div>
-<section id='profile' class='section_cover'>
-<div class=' '>
-</section>
-<section  class='section_profile '>
-    <div class="container profContainer">
-      <div class="  text-center">
-           <img class='profile_image' src="img/profile.png" alt="">
-       </div>
-      <div class=" col-xs-12 col-lg-12 text-center">
-        <h1>Tsinat Zeree</h1>
-        <h2>JavaScript Developer</h2><br />
-        <h3> Full Stack Javascript Developer with emphasis on the Front End, hungry for new challenges and solving problems on a daily basis.
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Prologue by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
 
-            <br /> <br />
-        </h3>
-        <div class="text-center">
-            <a href="mailto:tsinatzeree@gmail.com" class="hire-me"><i class="icon-paper-plane"></i> Hire Me </a> </div>
-        </div>
-        <div class="row social">
-          <ul class="social-icons">
-            <li><a href="https://github.com/tsinat" target='_blank'><i class="github fa fa-github fa-3x" aria-hidden="true"></i></li>
-            <li><a href="https://www.linkedin.com/in/tsinat" target='_blank'><i class="linkedin fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
-            <li><a href="https://twitter.com/tsinatzeree" target="_blank"><i class="twitter fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-    </div>
-</section>
-<section id='work' class='section_portfolio'>
-    <div class="container work">
-      <h2 class='text-center'>Recent Projects</h2>
-      <ul class="work-images">
-        <li>
-          <div class='work-div'><a class="fancybox-thumb" rel="fancybox-thumb" href="http://www.getmentor.co/" title="project one" target='_blank'>
-              <img src="img/getMentor3.png" alt="" class='project-image'></a>
-          </div><br/>
-          <p>
-              GetMentor is a web application developed with MERN stack with Redux. The application makes it easy to find local or remote mentor in different specializations ranging from web development to vocational training.
-          </p><br>
-          <span>
-             <b>Technologies Used:</b>
-              <ul>
-                  <li><i class="fa fa-star" aria-hidden="true"></i> React, Redux, Express and MongoDB</li>
-                  <li><i class="fa fa-star" aria-hidden="true"></i> AWS and S3</li>
-                  <li><i class="fa fa-star" aria-hidden="true"></i> Token based authentication</li>
-              </ul>
-          </span>
-          <div class="skill_buttons text-center">
-              <a type="button" class='btn btn-lg btn-success' href='https://github.com/tsinat/getTutor' target='_blank'><i class="fa fa-github" aria-hidden="true"></i> View source code</a>
-              <a type="button" class='btn btn-lg btn-primary' href='http://www.getmentor.co/' target='_blank'>live demo</a>
-          </div>
-          <hr/>
-        </li>
-        <li>
-          <div class='work-div'><a class="fancybox-thumb" rel="fancybox-thumb" href="http://jsm-app.tech" title="project one" target='_blank'>
-              <img src="img/project_jrm.png" alt="" class='project-image'></a>
-          </div><br/>
-          <p>
-            JSM is a project developed by a group of four(myself included) while attending coding house. It is job application managment system, that helps user keep track of job applications he submitted and notifies him on crucial dates.
-          </p><br>
-          <span>
-             <b>Technologies Used:</b>
-              <ul>
-                  <li><i class="fa fa-star" aria-hidden="true"></i> MEAN Stack</li>
-                  <li><i class="fa fa-star" aria-hidden="true"></i> Google Api</li>
-                  <li><i class="fa fa-star" aria-hidden="true"></i> Auth0</li>
-              </ul>
-          </span>
-          <div class="skill_buttons text-center">
-              <a type="button" class='btn btn-lg btn-success' href='https://github.com/amazingandyyy/jobrm' target='_blank'><i class="fa fa-github" aria-hidden="true"></i> View source code</a>
-              <a type="button" class='btn btn-lg btn-primary' href='http://jsm-app.tech' target='_blank'>live demo</a>
-          </div>
-          <hr/>
-        </li>
-        <li>
-          <div class='work-div'><a class="fancybox-thumb" rel="fancybox-thumb" href="http://www.my-shelf.tech" title='project two' target='_blank'>
-              <img src="img/portofilio2.png" alt="" class='project-image'></a>
-          </div><br>
-          <p>
-            My Shelf is an app where you can exchange books that you have already read with books that you wish to read based on your interest or location.
-        </p><br>
-        <span>
-           <b>Technologies Used:</b>
-            <ul>
-                <li><i class="fa fa-star" aria-hidden="true"></i> MEAN Stack</li>
-                <li><i class="fa fa-star" aria-hidden="true"></i> Google Books Api</li>
-                <li><i class="fa fa-star" aria-hidden="true"></i> Good Read Api</li>
-                <li><i class="fa fa-star" aria-hidden="true"></i> AWS S3</li>
-            </ul>
-        </span>
-          <div class="skill_buttons text-center">
-              <a type="button" class='btn btn-lg btn-success' href='https://github.com/tsinat/myShelf' target='_blank'><i class="fa fa-github" aria-hidden="true"></i> View source code</a>
-              <a type="button" class='btn btn-lg btn-primary' href='http://www.my-shelf.tech' target='_blank'>live demo</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-</section>
-<section id='blog' class='section_resume'>
-    <div class="container ">
-      <div class=" blog">
-          <h2 class='text-center blog_title'>My Blog</h2>
-          <h4>In my free time, I write about new concepts and libraries that I am learning. checkout my blog...</h4>
-          <div class="col-xs-6 col-xs-offset-3 ">
-              <a href="https://medium.com/@tsinatzeree" target='_blank' class="fancybox-thumb" rel="fancybox-thumb"><img src="img/myblog.png" alt="" /></a>
-              <!-- <div class="btn-center text-center"> <a href="img/resume.pdf" target='_blank' class="hire-me"></i>Resume</a>
-              </div> -->
-          </div>
-      </div>
-    </div>
+		<!-- Header -->
+			<div id="header">
 
-</section>
-</div>
-<div class="footer">
-    <div class="container">
-        <p class="pull-left"> © 2016 www.tsinatzeree.com | All Rights Reserved</p>
-        <p class="pull-right contact"><a href="mailto:tsinatzeree@gmail.com"  data-toggle="modal"> <i class="icon-mail"></i> CONTACT</a></p>
-    </div>
-</div>
-<div class="goto-top">
-  <a class="smoothScroll" href="#top"><i class="fa fa-chevron-up fa-2x"></i></a>
-</div>
-<script src="js/jquery-1.10.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src='js/main.js'></script>
-<script>
-  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-  e.src='https://www.google-analytics.com/analytics.js';
-  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');
-</script>
-</body>
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1 id="title">Tsinat Zeree</h1>
+							<p>JavaScript Developer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#blog" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Blog</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Skills</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+						<div class="sub-nav">
+							<div class="resume text-center">
+								<a href="./images/resume.pdf" target="_blank"> Resume <i class="fa fa-file-pdf-o resume-pdf" ></i></a>
+							</div>
+							<div class="resume text-center">
+								<a href="mailto:tsinatzeree@gmail.com"> Hire me <i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+							</div>
+						</div>
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://twitter.com/tsinatzeree" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/tsinat.tesfalul" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/tsinat" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="mailto:tsinatzeree@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+							<div class="  text-center">
+					           <img class='profile_image' src="images/profile.jpeg" alt="">
+					       </div>
+							<header>
+								<div class='row'>
+									 <div class=" col-xs-12 col-lg-10 col-lg-offset-1 text-center">
+									   <h3>Tsinat Zeree</h3>
+									   <h2>JavaScript Developer</h2><br />
+									   <h3> Full Stack Javascript Developer with emphasis on the Front End, hungry for new challenges and solving problems on a daily basis.</h3>
+								 </div>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Sample Projects</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+							<div class="row">
+					              <div class="col-xs-12 col-md-6 col-lg-6 left">
+					                  <div class="">
+					                      <h3>GetMentor</h3>
+					                  </div>
+					                  <p class="text-left">
+					                      GetMentor is a web application that makes it easy to find local or remote mentor in different specializations ranging from web development to vocational training.
+										  <p>--<strong></strong> React, Redux, Express, MongoDB, AWS S3</p>
+					                  </p>
+									  <div class="skill_buttons text-center">
+										  <a type="button" class='btn  btn-success' href='https://github.com/tsinat/getTutor' target='_blank'><i class="fa fa-github" aria-hidden="true"></i> Source code</a>
+										  <a type="button" class='btn  btn-primary' href='http://www.getmentor.co/' target='_blank'> Demo</a>
+									  </div>
+					              </div>
+					              <div class="col-xs-12 col-md-6 col-lg-6 right">
+					                  <div class='work-div'><a class="fancybox-thumb" rel="fancybox-thumb" href="http://www.getmentor.co/" title="project one" target='_blank'>
+					                      <div class="col-xs-12 clear">
+					                          <img src="images/getMentor5.png" alt="" class='project-image'>
+					                      </div></a>
+					                  </div><br/>
+					              </div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-md-6 leftPic">
+									<div class='work-div'><a class="fancybox-thumb" rel="fancybox-thumb" href="http://jsm-app.tech" title="project one" target='_blank'>
+										<div class="col-xs-12 clear">
+											<img src="images/jsm3.png" alt="" class='project-image'>
+										</div></a>
+									</div><br/>
+								</div>
+								<div class="col-xs-12 col-md-6 rightDescSec">
+									<div class="text-center">
+										<h3>JSM</h3>
+									</div>
+									<p class="text-left">JSM is a project developed by a group of four(myself included). It is job application managment system, that helps user keep track of job applications he submitted and notifies him on crucial dates.</p>
+									<p>--<strong>Stack:-</strong> MEAN Stack, Gmail-API, Auth0</p>
+									<div class="skill_buttons text-center">
+										<a type="button" class='btn  btn-success' href='https://github.com/amazingandyyy/jobrm' target='_blank'><i class="fa fa-github" aria-hidden="true"></i> Source code</a>
+										<a type="button" class='btn  btn-primary' href='http://jsm-app.tech' target='_blank'> Demo</a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-md-6 left">
+									<div class="">
+										<h3>MyShelf</h3>
+									</div>
+									<p class="text-left">My Shelf is an app where you can exchange books that you have already read with books that you wish to read based on your interest or location.</p>
+									<p>--<strong>Stack:-</strong> MEAN Stack, Google Books Api, AWS S3</p>
+									<div class="skill_buttons text-center">
+										<a type="button" class='btn btn-success' href='https://github.com/tsinat/myShelf' target='_blank'><i class="fa fa-github" aria-hidden="true"></i> Source code</a>
+										<a type="button" class='btn btn-primary' href='http://www.my-shelf.tech' target='_blank'> Demo</a>
+									</div>
+								</div>
+								<div class="col-xs-12 col-md-6 right">
+									<div class='work-div'><a class="" rel="fancybox-thumb" href="http://www.my-shelf.tech" title='project two' target='_blank'>
+										<div class="col-xs-12 clear">
+											<img src="images/myshelf5.png" alt="" class='project-image'>
+										</div></a>
+									</div><br>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+				<!-- Contact -->
+					<section id="blog" class="four">
+						<div class="container">
+							<header>
+								<h2>Blog</h2>
+							</header>
+						    <div class="container text-center">
+						      <div class=" blog">
+						          <h4>In my free time, I write about new concepts and libraries that I am learning. checkout my blog...</h4>
+						          <div class="col-xs-12 col-xs-offset-0 ">
+						              <a href="https://medium.com/@tsinatzeree" target='_blank' class="profile-image" rel="fancybox-thumb">
+										  <img src="images/myblog.png" alt=""  class="blog2"/>
+									  </a>
+								  </div>
+						 	   </div>
+							</div>
+						</div>
+					</section>
+					<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Resume</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+								ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+								laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+								parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+								dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+								ornare iaculis.</p>
+
+							</div>
+					</section>
+					<section id="contact" class="five">
+						<div class="container">
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Please don't hesitate to contact me regarding a project that we could work on together, full time/short term position or just to say hi.</p>
+
+							<form  method="POST" action="https://formspree.io/tsinatzeree@gmail.com">
+								<div class="row">
+									<div class="col-xs-12 col-lg-8">
+										<div class="col-xs-12 col-lg-6 secondInput"><input type="text" name="name" placeholder="name" /></div>
+										<div class="ol-xs-12 col-lg-6 firstInput"><input type="email" name="_replyto" placeholder="Email" /></div>
+										<div class="12u$">
+											<textarea name="message" value="Send" placeholder="Message"></textarea>
+										</div>
+										<br />
+										<div class="12u$">
+											<input type="submit" value="Send Message" />
+										</div>
+									</div>
+									<div class="col-xs-12 col-lg-3 contactDetail text-left">
+										<ul >
+											<li>
+												<h3>Address</h3>
+												<span>Oakland, CA</span>
+											</li>
+											<li>
+												<h3>Email</h3>
+												<span>tsinatzeree@gmail.com</span>
+											</li>
+											<li>
+												<h3>Phone</h3>
+												<span>(510)-387-9858</span>
+											</li><br />
+											<li>
+												<h3>Social</h3>
+												<div class="bottom">
+
+													<!-- Social Icons -->
+													<ul class="icons">
+														<li><a href="https://twitter.com/tsinatzeree" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+														<li><a href="https://www.facebook.com/tsinat.tesfalul" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+														<li><a href="https://github.com/tsinat" class="icon fa-github"><span class="label">Github</span></a></li>
+														<li><a href="mailto:tsinatzeree@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+													</ul>
+
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>

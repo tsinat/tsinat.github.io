@@ -1,1 +1,0 @@
-# tsinat.github.io
