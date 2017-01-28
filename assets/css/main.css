@@ -82,7 +82,7 @@
 	width: 84%;
 	margin:10px 20px 0 20px !important;
 	border: 2px solid #89B8B6;
-	border-radius: 30px;
+	/*border-radius: 30px;*/
 }
 .resume a {
 	text-decoration: none;
